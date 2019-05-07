@@ -96,8 +96,8 @@ class FunctionsTest < MiniTest::Test
 
 
   def test_fahrenheit_to_celsius()
-      celsius_value = far_to_cel(32)
-      assert_equal(0,celsius_value)
+      celsius_value = far_to_cel(88)
+      assert_equal(31,celsius_value)
   end
 
 
